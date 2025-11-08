@@ -1,0 +1,10 @@
+{
+  // Disable mypy for this workspace
+  "python.linting.mypyEnabled": false,
+
+  // Alternative: Configure mypy to use the local mypy.ini
+  "python.linting.mypyArgs": ["--config-file=mypy.ini"],
+
+  // Disable type checking in VSCode
+  "python.analysis.typeCheckingMode": "off"
+}
