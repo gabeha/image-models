@@ -70,11 +70,6 @@ dmyp.json
 # Hugging Face cache (models are cached here)
 .cache/
 
-# Output images (images with background removed)
-*_no_bg.png
-*_no_bg.jpg
-predictions/
-comparisons/
 
 # Input images (optional - uncomment if you don't want to commit test images)
 # *.jpg
